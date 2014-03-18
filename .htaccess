@@ -1,0 +1,3 @@
+RewriteEngine Off
+php_value upload_max_filesize 50000000
+php_value post_max_size 50000000

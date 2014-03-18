@@ -1,0 +1,86 @@
+body{
+	background-image: url('../background.jpg');
+        text-align: center;
+        //background-color:#797e94;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+#login{
+        background-color: rgba(0, 98, 138, 0.4);
+        border-radius: 5px;
+        display: inline-block;
+        padding: 5px;
+        font-size: 1.5em;
+        text-align: center;
+        
+}
+#upload_form, #results{
+	border:3px solid black;
+	border-radius:10px;
+        background-color: rgba(0, 0, 114, 0.3);
+	text-align: left;
+	font-size:1em;
+	margin:auto;
+	padding:0 50px 50px 50px;
+	width:40%;
+        color: rgba(36, 213, 174, 0.6);
+        text-shadow:5px 8px 13px #000000;
+}
+#results{
+    background-color: rgba(0, 98, 138, 0.2);
+    text-align: center;
+    border-top:none;
+    width:30%;
+    padding:20px 50px 20px 50px;
+    border-radius:0 0 10px 10px;
+}
+
+#gallery_link,#admin_link{
+    display: inline-block;
+    width: 100px;
+    margin-top:15px;
+    padding: 15px;
+    color: rgba(36, 213, 174, 0.6);
+    text-shadow:5px 8px 13px #000000;
+   -webkit-box-shadow: 0 0 5px rgba(0, 0, 92, 0.40);
+  -moz-box-shadow: 0 0 5px rgba(0, 0, 92, 0.40);
+  box-shadow: 0 0 5px rgba(0, 0, 92, 0.40);
+    -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+}
+#admin_link_container{
+float:right;
+display:block;
+position: relative;
+margin: -50px -40px 0 0; 
+text-align: center;
+}
+#admin_link:hover, #gallery_link:hover{
+      color: #fff;
+      background-color: rgba(255, 220, 197, 0.1);
+    -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.90);
+  -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.90);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.90);
+}
+
+#go-to-gallery, #admin_link_container:visited{
+    color:black;
+}
+table {
+    width:100%;
+}
+
+#admin_link{
+padding-right: -10px;
+}
+h2{
+    text-align: center;
+}
+#button-holder{
+    text-align: center;
+}

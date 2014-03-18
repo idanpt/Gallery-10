@@ -1,0 +1,119 @@
+header ul li h1{         //main logo
+    width:200px;
+    text-align: center;
+
+}
+header{
+        background-color: rgba(0, 98, 138, 0.3);
+        border-radius: 5px;
+        display: inline-block;
+        padding-right: 5px;
+
+
+}
+nav{
+    display: inline-block;
+
+    
+
+}
+/*dropdown menu style*/
+ul {
+
+  text-align: left;
+  display: inline-block;
+  margin: 0;
+  padding:0;
+  list-style: none;
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.40);
+  -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.40);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.40);
+}
+ul li {
+  color: rgba(36, 213, 174, 1);
+  text-shadow:5px 8px 13px #000000;
+  font: bold 12px/18px "Comic Sans MS", cursive, sans-serif;
+  display: inline-block;
+  position: relative;
+  padding: 15px;
+  cursor: pointer;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+}
+ul li:hover {
+  color: rgba(36, 213, 174, 1);
+    -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 1);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 1);
+  background-color: rgba(255, 220, 197, 0.1);
+}
+/*ul li:hover a{
+   color: rgba(36, 213, 174, 1);
+}*/
+ul li ul {
+  padding: 0;
+  position: absolute;
+  top: 48px;
+  left: 0;
+
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  display: none;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transiton: opacity 0.2s;
+  -moz-transition: opacity 0.2s;
+  -ms-transition: opacity 0.2s;
+  -o-transition: opacity 0.2s;
+  -transition: opacity 0.2s;
+}
+ul li ul li{ 
+
+  background: #555;
+  width:170px;
+  position: relative;
+  z-index: 1;
+  padding: 10px 13px;
+  background-color: transparent; 
+  display: block; 
+   -webkit-transiton: opacity 0.2s;
+  -moz-transition: opacity 0.2s;
+  -ms-transition: opacity 0.2s;
+  -o-transition: opacity 0.2s;
+  transition: all 0.2s;
+
+}
+ul li ul li a{
+      color: #fff;
+      text-shadow: 0 -1px 0 #000;
+}
+ul li ul li a:visited{
+          color: #fff;
+}
+
+ul li ul li:hover { 
+    background: #585f7a;
+
+}
+ul li ul li:hover a{ 
+    color: rgba(36, 213, 174, 1);
+}
+
+ 
+ul li:hover ul {            //show hidden sub-menus
+width:180px;
+  display: block;
+  visibility: visible;
+  opacity:1;
+    -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.70);
+  -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.70);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.70);
+}
+
+ul li ul #logout{
+    width:100%;
+}
